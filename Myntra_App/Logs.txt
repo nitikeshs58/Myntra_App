@@ -1,0 +1,3 @@
+﻿2020-11-04 13:37:50,600 [NonParallelWorker] INFO Myntra_App.MyntraBase.Base - Navigating to login page
+2020-11-04 13:37:53,910 [NonParallelWorker] INFO Myntra_App.MyntraBase.Base - Login test Started.
+2020-11-04 13:38:00,402 [NonParallelWorker] INFO Myntra_App.MyntraBase.Base - SignIn test Ended.
