@@ -33,7 +33,7 @@ namespace Myntra_App.Pages
         /// To login to Myntra shopping 
         /// Used Data driven for login credencials
         /// </summary>
-        public void MyntraLoginMethod()
+        public string MyntraLoginMethod()
         {
             Thread.Sleep(explictWait);
             mobileNumber.SendKeys(ConfigurationManager.AppSettings["mobileNumber"]);
@@ -41,6 +41,8 @@ namespace Myntra_App.Pages
             password.SendKeys(ConfigurationManager.AppSettings["password"]);
             Thread.Sleep(explictWait);
             loginButton.Click();
+            Thread.Sleep(explictWait);
+            return driver.Title;
         }
     }
 }

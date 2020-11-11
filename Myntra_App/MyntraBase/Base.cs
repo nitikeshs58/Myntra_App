@@ -56,7 +56,7 @@ namespace Myntra_App.MyntraBase
         public void TeardownMethod()
         {
             driver.Quit();
-            SendMail.SendEmailMethod();
+            //SendMail.SendEmailMethod();
         }
     }
 }
